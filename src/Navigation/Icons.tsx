@@ -24,7 +24,7 @@ const Icons = ({ Icon, Name, selected, handleClick, iconColor }: Props) => {
       <motion.span layout>
         <Icon />
       </motion.span>
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence initial={false}>
         {selected && (
           <motion.span key={Name} className={styles.iconsName}>
             {Name}
