@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(250deg, #7b2ff7, #f107a3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  padding: 2em 1.5em;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom-left-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+}
+
+.icons {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+  border-radius: 6em;
+}
+
+.iconsName {
+  margin-left: 10px;
+  font-size: 1rem;
+}
